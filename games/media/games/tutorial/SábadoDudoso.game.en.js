@@ -35,30 +35,30 @@ undum.game.situations = {
 				"<p> acabando navidad y a punto de comenzar los exámenes del primer cuatrimestre. Es sábado y esta semana no he salido nada a la calle ya que me he dedicado a estudiar para mis exámenes, que para variar, empecé a estudiar tarde y estoy un poco agobiada. Mi amiga, como siempre, me llama para saber si nos vamos a ver y <a href='salir'>salir de fiesta </a> pero no sé si <a href='estudiando'>seguir estudiando.</a></p>"
 		),
 		estudiando: new undum.SimpleSituation(
-			"<img class='img-situation' src='./media/Imagenes/estudiando.jpg'>\
+			"<img class='img-situation' src='./media/img/estudiando.jpg'>\
 			<p>Como chica responsable, decido quedarme en casa para seguir estudiando. </p>\
 			<p>Llevo ya tantas horas delante de la pantalla que me cuesta mucho concentrarme y no rindo. Por lo que decido <a href='serie'> ver una serie </a> o <a href='cena'> hacerme una cena rica.</a></p>/"
 		),
 		salir: new undum.SimpleSituation(
-			"<img class='img-situation' src='./media/Imagenes/salir.jpg'>\
+			"<img class='img-situation' src='./media/img/salir.jpg'>\
 <p>salir un sábado en el pueblo significa encontrarse a todo quisqui y tener que cumplir con gente que llevas tiempo sin ver. Mi primo quiere que vayamos a su cochera para <a href='seguir'> seguir la fiesta </a> y así despedirnos porque se tiene que ir a trabajar fuera, esta idea es un tanto llamativa pero yo debería de <a href='casa'>ir a casa para descansar </a> y mañana tener un día productivo de estudio.</p>"
 		),
 
 		seguir: new undum.SimpleSituation(
 			"<h1>Sigue la fiesta</h1>\
-			<img class='img-situation' src='./media/Imagenes/siguefiesta.jpg'>\
+			<img class='img-situation' src='./media/img/siguefiesta.jpg'>\
 			<p>Al final todos mis amigos, que saben todo lo que llevo estudiando estos días, me convencen para seguir la fiesta. Compramos botellón pero no tengo claro <a href='beber'> si beber </a> o <a href='nobeber'> no.</a></p>"
 		),
 
 		beber: new undum.SimpleSituation(
-			"<img class='img-situation' src='./media/Imagenes/beber.jpg'>\
+			"<img class='img-situation' src='./media/img/beber.jpg'>\
 <p>Decido tomarme unos cubatas y seguimos bailando hasta altas horas de la madrugada. El domingo me levantaré con un resacón.</a></p>"
 		),
 
 
 		serie: new undum.SimpleSituation(
 			"<h1>Veo Netflix</h1>\
-			<img class='img-situation' src='./media/Imagenes/verserie.jpg'>\
+			<img class='img-situation' src='./media/img/verserie.jpg'>\
 			<p>Abro Netflix. Mi prima me recomendó una <a href='peli'> película </a> que no se si empezar a ver ahora o ver la <a href='veoserie'> serie </a> que tanto anuncian en televisión.</p>"
 		),
 
@@ -76,18 +76,18 @@ undum.game.situations = {
 		),
 
 		veoserie: new undum.SimpleSituation(
-			"<img class='img-situation' src='./media/Imagenes/serie.jpg'>\
+			"<img class='img-situation' src='./media/img/serie.jpg'>\
 <p>Empiezo a ver la serie, el primer capítulo parece que no me engancha mucho por eso decido ver el siguiente. Cuando quiero darme cuenta de la hora son las 3 a.m. y he perdido mucho tiempo de estudio.</p>"
 		),
 
 		desayunar: new undum.SimpleSituation(
-			"<img class='img-situation' src='./media/Imagenes/churros.jpg'>\
+			"<img class='img-situation' src='./media/img/churros.jpg'>\
 <p>Decido ir a comer churros con chocolate para despejarme y poder seguir estudiando con más ganas.</p>/"
 		),
 
 
 		cena: new undum.SimpleSituation(
-			"<img class='img-situation' src='./media/Imagenes/cena.jpg'>\
+			"<img class='img-situation' src='./media/img/cena.jpg'>\
 			<p Me dispongo a ir a la cocina para prepararme un plato estrella que había visto anunciado en un programa de cocina que consistía en rellenar berenjenas con pollo. Mientras espero a que se hagan las berenjenas me doy cuenta de que he hecho una cena demasiado rica como para no compartirla y ceno con mi madre.</p>/"
 		),
 

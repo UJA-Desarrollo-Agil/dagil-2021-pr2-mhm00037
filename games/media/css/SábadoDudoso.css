@@ -1,6 +1,6 @@
 body {
-    background: #170804 url("../img/page_bg.jpg") repeat-x left top;
-    font-family: Palatino, Times, "Times New Roman", serif;
+    background: #162755 url("../img/fondo.jpg") repeat-x left top;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
     font-size: 18px;
     line-height: 1.6em;
     background-attachment: fixed;
@@ -19,10 +19,12 @@ body {
 /* The title block */
 #title, #title .label, #content, .tools {
     border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
 }
 #title {
     max-width: 28em;
-    background: #e6e6c6 url("../img/title_bg.jpg") repeat -1.1em -1.1em;
+    background: #e6e6c6 url("../img/titulo.jpg") repeat -1.1em -1.1em;
     margin: 2.2em auto 1.1em auto;
     padding: 1.7em;
     border: 1.1em solid rgba(0,0,0,0.25);
@@ -30,12 +32,13 @@ body {
 }
 #title .label {
     overflow: hidden;
-    background: #e6e6c6 url("../img/text_bg.jpg") repeat left top;
+    background: #e6e6c6 url("../img/tools.jpg") repeat left top;
     padding: 2.0em;
     margin: auto;
     max-width: 18em;
-    -webkit-box-shadow: 0 0 4px rgba(0,0,0,0.4);
-            box-shadow: 0 0 4px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0 0 16px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0 0 16px rgba(0,0,0,0.75);
+    box-shadow: 0 0 16px rgba(0,0,0,0.75);
     position: relative;
 }
 #title h1 {
@@ -96,7 +99,7 @@ body {
 #content_wrapper {
     max-width: 28em;
     position: relative;
-    background: #e6e6c6 url("../img/text_bg.jpg") repeat left top;
+    background: #e6e6c6 url("../img/texto.png") repeat left top;
     margin: 0.6em auto 1.1em auto;
     padding: 2.8em;
     display: none; /* Shown by Javascript */
@@ -107,8 +110,9 @@ span.drop + p {
 }
 p {
     margin: 0;
+    transition: text-indent 0.25s ease;
+    -moz-transition: text-indent 0.25s ease;
     -webkit-transition: text-indent 0.25s ease;
-            transition: text-indent 0.25s ease;
 }
 hr {
     border: none;
@@ -120,13 +124,13 @@ hr {
 p + p, p + img + p, p + hr + p {
     text-indent: 1.6em;
 }
-#content h1 + p:first-line,
-#content h1 + img + p:first-line {
+#content h1 + p:..first-line,
+#content h1 + img + ..p:first-line {
     font-weight: bold;
     color: rgba(0,0,0,0.85);
 }
-#content h1 + p:first-letter,
-#content h1 + img + p:first-letter {
+#content h1 + p:..first-letter,
+#content h1 + img + p:..first-letter {
     position: relative;
     padding-top: 0.1em;
     display: block;
@@ -143,10 +147,11 @@ ul {
 ul.options {
     border: 2px solid #876;
     padding: 0;
-    margin-top: 0.5em;
     margin-bottom: 0.7em;
     list-style-type: none;
     border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
 }
 ul.options li {
     border-bottom: 1px solid #876;
@@ -199,18 +204,17 @@ img.float_left {
 
 #tools_wrapper {
     position: fixed;
-    width: 100%;
     max-width: 56em;
     top: 2.2em;
-    left: 0;
-    right: 0;
+    left: 0.4em;
+    right: 0.4em;
     margin: 0 auto;
     display: none; /* Shown by Javascript */
 }
 .tools {
     padding: 0.6em;
     width: 8.9em;
-    background: #cec3ae url("../img/tools_bg.jpg") repeat left top;
+    background: #cec3ae url("../img/tool.jpg") repeat left top;
     position: absolute;
 }
 .tools p {
@@ -218,12 +222,11 @@ img.float_left {
     line-height: 1.5em;
 }
 .tools.left {
-    left: 0.4em;
+    left: 0;
 }
 .tools.right {
-    right: 0.4em;
+    right: 0;
 }
-
 .tools h1 {
     font-size: 1.0em;
     font-weight: normal;
@@ -244,6 +247,8 @@ img.float_left {
     padding: 0.3em 1.0em;
     cursor: pointer;
     border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
 }
 .buttons button:hover {
     background: #987;
@@ -328,6 +333,8 @@ img.float_left {
     width: 27.7em;
     clear: both;
     border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
 }
 .progress_bar_color {
     background: #987;

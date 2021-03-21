@@ -1,4 +1,4 @@
-##SábadoDudoso
+## Sábado Dudoso
 Me levanto un sábado por la mañana, estamos en navidad y en plena fecha de exámenes.
 Paso todo el día estudiando y a media tarde mi amiga me llama para saber si vamos a vernos como todos los sábamos para salir a despejarme o prefiero seguir estudiando.
 Si decido salir, paso un buen rato con mis amigos y ellos deciden ir a una cochera para terminar la fiesta. Yo no sé si terminar la fiesta con ellos o irme a mi casa para descansar y así madrugar al día siguiente para seguir estudiando.
